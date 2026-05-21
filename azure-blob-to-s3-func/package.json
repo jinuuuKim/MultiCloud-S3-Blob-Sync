@@ -1,0 +1,14 @@
+{
+  "name": "azure-blob-to-s3-func",
+  "version": "1.0.0",
+  "description": "Replicate Azure Blob uploaded files to AWS S3",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@aws-sdk/client-s3": "^3.0.0"
+  },
+  "devDependencies": {}
+}
